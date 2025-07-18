@@ -4,13 +4,13 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.aa
+.circular
 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.outer
+.circular-loader
 {
     height: 120px;
     width: 120px;
