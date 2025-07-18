@@ -1,0 +1,37 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.aa
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer
+{
+    height: 120px;
+    width: 120px;
+   
+    border-radius: 50%;
+    border-top: 25px solid white; /*main theme*/
+    border-left: 25px solid rgba(0, 0, 0, 0.627);
+    border-bottom: 25px solid rgba(0, 0, 0, 0.627);
+    border-right: 25px solid rgba(0, 0, 0, 0.627);
+    animation: animate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate {
+    from
+    {
+        transform: rotate(0deg);
+    }
+    to
+    {
+        transform: rotate(360deg);
+    }    
+}
